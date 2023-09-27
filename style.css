@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat:wght@400;700&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+html{
+
+    background: rgba(122, 191, 191, .5);
+
+}
+
+.logo{
+
+background-color: #EB5428;
+padding: 20px;;
+
+}
+
+header{
+
+background-color: white;
+height:100px;
+box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
+}
+
+
+
+body{
+
+margin: auto auto;
+width: 1280px;
+background:#F2F2F2;
+height: 100%;
+
+}
+
+
+
+h1{
+
+  font-family: Bebas Neue;
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+
+
+ .headerimages img{
+
+scale: 28%;
+
+}
+
+ .headerimages figure{
+    position: relative;
+    left:300px;
+    top:-195px;
+    display: inline-block;
+    bottom:20px;
+    margin-left: -150px;
+
+}
+
+.headerimages figure {
+    text-align: center;
+}
+
+.headerimages figcaption {
+    margin-top: -100px;
+    text-align: center;
+}
+
+.headerimages figure p {
+
+    text-transform: uppercase;
+    color:#EB5428;
+    font-size: 14px;
+    font-family:Bebas Neue;
+    font-weight: 400;
+}
+
+.avatar{
+
+position: relative;
+
+bottom:295px;
+left:1160px;
+
+
+}
+
+.signin{
+
+    position: relative;
+    
+    bottom:282px;
+    left:1117px;
+    text-transform: uppercase;
+    color:#000000;
+    font-size: 16px;
+    font-family:Bebas Neue;
+    
+    }
+
+
+    main .wrap{
+
+        display: flex;
+        position: relative;
+        top:50px;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .search {
+        width: 300px;
+        position: relative;
+        display: flex;
+      }
+      
+      .searchTerm {
+        width: 100%;
+        border: 3px solid #EB5428;
+        border-right: none;
+        padding: 5px;
+        height: 30px;
+        outline: none;
+        color: #000000;
+      }
+      
+      .searchTerm:focus{
+        color: #000000;
+      }
+      
+      .searchButton {
+        width: 50px;
+        height: 45.5px;
+        border: 1px solid #EB5428;
+        background: #EB5428;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      aside{
+        padding: 10px;
+        width:100px;
+        height:700px;
+        background-color: #ffff;
+        border: 2px solid #EB5428;
+
+      }
+
+      .svg-container {
+        
+        position: relative;
+        left: 27px;
+        top:30px;
+        margin-bottom: 40px;  
+        
+    }
+
+
+      main span{
+
+      position: relative;
+      top:20px;
+      right: 37px;
+      font-family:Bebas Neue;
+      font-size: 16px;
+      text-transform: uppercase;
+      color:#EB5428;
+      
+
+    }
+
+   .tacoimage img{
+    position: relative;
+    bottom: 724px;
+    left:124px;
+    width:520px;
+    height: 724px;
+    
+    }
+
+
+    #description{
+      position: relative;
+      left: 660px;
+      bottom:1460px;
+      text-align: left;
+      width: 46%;
+      font-size:16px;
+      font-family: Montserrat;
+      font-weight: 400;
+      
+    }
+
+
+    #details{
+      position: relative;
+      bottom: 960px;
+      background-color: #0D0D0D;
+      color:rgb(21, 175, 134);
+      
+
+    }
+
+    #details h2{
+
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+      text-transform: uppercase;
+    }
+
+
+    #details dl { 
+      display: inline-block;
+      justify-content: space-between;
+      text-align:center;
+      margin-left: 90px;
+    }
+
+    dt {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+
+    }
+
+    dd {
+
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      right:18px;
+
+    }
+
+    dt, dd {
+      position: relative;
+      bottom: 10px;
+    }
+
+   menu {
+    position: relative;
+    bottom:980px;
+   }
+
+   menu h2 {
+    position: relative;
+    left:20px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+   }
+
+   menu ul {
+    text-align: left;
+    padding-left:0;
+   }
+
+   menu li{
+    margin-bottom:10px;
+    font-size: 16px;
+    font-family: Montserrat;
+   }
+
+
+   #directions {
+    
+    position: relative;
+    bottom: 1380px;
+    margin-left: 600px;
+   }
+
+   #directions h2 {
+    position: relative;
+    left:70px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+   }
+
+  #directions ol {
+    position: relative;
+    right:340px;
+    width:950px;
+    font-family: Montserrat ;
+  }
+
+  #sidedishes {
+    
+    position: relative;
+    bottom: 1260px;
+    background-color: #7ABFBF;
+    margin-right:auto;
+    margin-left:auto;
+  }
+
+  #sidedishes figure{
+
+    display: inline-block;
+
+  }
+
+  #sidedishes h2 {
+   text-align: center;
+   padding-top: 15px;
+   font-family: Bebas Neue;
+   font-size: 30px;
+  }
+
+  #sidedishes h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+   }
+
+  #sidedishes .rating{
+    position: relative;
+    bottom:7px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: Montserrat;
+  }
+
+  .staricon {
+    fill: #FF5733;
+    position:relative;
+    bottom:3px;
+    left:5px;
+  }
+
+
+
+  .staricon:nth-child(8) {
+    fill: #ffff;
+    position:relative;
+    bottom:3px;
+    left:5px;
+  }
+
+ 
+
+  .staricon2 {
+    fill: #FF5733;
+    position:relative;
+    bottom:3px;
+    left:5px;
+  }
+
+  #sidedishes .recipe {
+    width:75%;
+    font-family: Montserrat;
+  
+  }
+
+  #sidedishes .nd{
+    position: relative;
+    bottom:20px;
+    font-family: Montserrat;
+  }
+
+  #sidedishes .rd{
+    position: relative;
+    bottom:20px;
+    font-family: Montserrat;
+  }
+
+
+  h3 {
+    font-size: 25px;
+    font-family: Bebas Neue;
+  }
+
+  footer{
+    position: relative;
+    bottom:1260px;
+    background-color:rgb(225, 225, 225);
+    height:300px;
+    font-size: 20px;
+
+  }
+
+  footer img {
+    position: relative;
+    top:60px;
+    left:20px;
+    width:15%;
+    padding:auto;
+
+  }
+
+  footer p { 
+    position: relative;
+    font-size: 20px;;
+    left:230px;
+    text-align: center;
+    width:8%;
+    line-height: 0.9;
+    font-family:Bebas Neue;
+    font-weight: 700;
+    bottom:130px;
+  }
+
+  #socialm svg{
+    position: relative;
+    bottom:250px;
+    left:800px;
+    margin-left:50px;
+    stroke:#EB5428;
+
+  }
+
+  span {
+
+    color:green
+
+  }
+
+
+  .bottomicons {
+    display: inline-block;
+  }
+
+  .bottomicons p {
+    text-align: center;
+    position: relative;
+    left:841px;
+    top:-260px;
+    color:#EB5428;
+  }
+
+
+
+
+
+
