@@ -47,65 +47,72 @@ h1{
 
 }
 
+.headerimages ul {
+
+  display: flex;
+  list-style: none;
+  text-align: center;
+
+}
 
 
  .headerimages img{
-
-scale: 28%;
-
-}
-
- .headerimages figure{
-    position: relative;
-    left:300px;
-    top:-195px;
-    display: inline-block;
-    bottom:20px;
-    margin-left: -150px;
+  margin-right:-100px;
+  position: relative;
+  bottom:200px;
+  left:70px;
+    scale: 28%;
+    z-index: 10;
 
 }
 
-.headerimages figure {
-    text-align: center;
+.headerimages svg{
+  
+  position: relative;
+  bottom:100px;
+  left: 100px;
+  
+
 }
 
-.headerimages figcaption {
-    margin-top: -100px;
-    text-align: center;
+.headerimages li .signup{
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom:100px;
+  left: 100px;
+  color: #000000;
+  
+
 }
 
-.headerimages figure p {
+.move {
 
+  position: relative;
+  left:80px;
+
+}
+
+
+
+.headerimages  span {
+  display: block;
+  justify-content: space-around;
+  position: relative;
+  left:120px;
+bottom:280px;
+  text-align: center;
     text-transform: uppercase;
     color:#EB5428;
     font-size: 14px;
     font-family:Bebas Neue;
     font-weight: 400;
-}
+} 
 
-.avatar{
-
-position: relative;
-
-bottom:295px;
-left:1160px;
-
+.logo{
+color: #FF5733;
 
 }
-
-.signin{
-
-    position: relative;
-    
-    bottom:282px;
-    left:1117px;
-    text-transform: uppercase;
-    color:#000000;
-    font-size: 16px;
-    font-family:Bebas Neue;
-    
-    }
-
 
     main .wrap{
 
@@ -131,6 +138,7 @@ left:1160px;
         height: 30px;
         outline: none;
         color: #000000;
+        font-size: 16px;
       }
       
       .searchTerm:focus{
@@ -148,7 +156,9 @@ left:1160px;
         font-size: 20px;
       }
       
-      aside{
+      menu{
+        position: relative;
+        top:16px;
         padding: 10px;
         width:100px;
         height:700px;
@@ -157,21 +167,36 @@ left:1160px;
 
       }
 
-      .svg-container {
-        
-        position: relative;
-        left: 27px;
-        top:30px;
-        margin-bottom: 40px;  
-        
-    }
+      menu li {
+        margin-top: 40px;
+        list-style: none;
+        z-index: 10;
+        margin-left: 20px;
+      
+      }
 
+     menu button {
+
+      background: none;
+      border: none;
+      box-shadow: none
+
+     }
+
+
+     menu button:hover {
+
+      
+      cursor: pointer;
+
+     }
 
       main span{
 
       position: relative;
-      top:20px;
-      right: 37px;
+      top:5px;
+      display: block;
+      left: 13px;
       font-family:Bebas Neue;
       font-size: 16px;
       text-transform: uppercase;
@@ -252,24 +277,24 @@ left:1160px;
       bottom: 10px;
     }
 
-   menu {
+   .ingredients {
     position: relative;
     bottom:980px;
    }
 
-   menu h2 {
+   .ingredients h2 {
     position: relative;
-    left:20px;
+    left:50px;
     font-size: 30px;
     font-family: Bebas Neue;
    }
 
-   menu ul {
+   .ingredients ul {
     text-align: left;
-    padding-left:0;
+   
    }
 
-   menu li{
+   .ingredients li{
     margin-bottom:10px;
     font-size: 16px;
     font-family: Montserrat;
@@ -286,6 +311,7 @@ left:1160px;
    #directions h2 {
     position: relative;
     left:70px;
+    bottom:5px;
     font-size: 30px;
     font-family: Bebas Neue;
    }
@@ -397,7 +423,6 @@ left:1160px;
     top:60px;
     left:20px;
     width:15%;
-    padding:auto;
 
   }
 
@@ -413,33 +438,36 @@ left:1160px;
     bottom:130px;
   }
 
-  #socialm svg{
-    position: relative;
-    bottom:250px;
-    left:800px;
-    margin-left:50px;
-    stroke:#EB5428;
-
-  }
-
-  span {
-
-    color:green
-
-  }
-
-
-  .bottomicons {
-    display: inline-block;
-  }
-
-  .bottomicons p {
+  #socialm ul {
+    display: flex;
     text-align: center;
     position: relative;
-    left:841px;
-    top:-260px;
-    color:#EB5428;
+    bottom:250px;
+    margin-left:800px;
   }
+  #socialm li {
+
+    list-style: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  #socialm svg {
+    position: relative;
+    left:10px;
+  }
+
+  #socialm span {
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family:Bebas Neue;
+      font-size: 16px;
+      text-transform: uppercase;
+      color:#EB5428;
+    
+  }
+  
 
 
 
