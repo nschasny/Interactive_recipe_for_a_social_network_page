@@ -470,10 +470,11 @@ color: #FF5733;
   }
   
   @media screen and (max-width: 768px){
-    body{
+    html{
 
-      margin: auto auto;
-      width: 90%;
+      margin: 20px auto;
+      width: 600px;
+      
 
     }
 
@@ -497,19 +498,21 @@ color: #FF5733;
 
 
         .headerimages img{
-          margin-right:-140px;
+          margin-right:-150px;
           position: relative;
           bottom:90px;
           left:-110px;
-            scale: 20%;
+            scale: 15%;
             z-index: 10;
 
       }
 
+      
+
       .headerimages  span {
         display: block;
         position: relative;
-        left:-40px;
+        left:-35px;
         bottom:185px;
         text-align:center;
         text-transform: uppercase;
