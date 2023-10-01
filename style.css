@@ -31,11 +31,13 @@ box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
 body{
 
 margin: auto auto;
-max-width: 1280px;
+width: 1280px;
 background:#F2F2F2;
 height: 100%;
-
+/* overflow-x:hidden; */
 }
+
+
 
 
 
@@ -346,13 +348,6 @@ color: #FF5733;
    font-size: 30px;
   }
 
-  #sidedishes h2 {
-    text-align: center;
-    padding-top: 15px;
-    font-family: Bebas Neue;
-    font-size: 30px;
-   }
-
   #sidedishes .rating{
     position: relative;
     bottom:7px;
@@ -470,9 +465,9 @@ color: #FF5733;
   }
   
   @media screen and (max-width: 768px){
-    html{
-
-      margin: 20px auto;
+    body{
+      margin-bottom: 0px;
+      margin: auto auto ;
       width: 600px;
       
 
@@ -528,15 +523,15 @@ color: #FF5733;
 
         display: flex;
         position: relative;
-        left:80px;
-        top:-140px;
+        left:70px;
+        top:-130px;
        justify-content: center;
         align-items: center;
 
     }
 
     .searchTerm {
-      width: 100%;
+      width: 200px;
       border: 3px solid #EB5428;
       border-right: none;
       padding: 5px;
@@ -566,8 +561,8 @@ color: #FF5733;
     .move {
 
       position: relative;
-      left:-205px;
-      top:25px;
+      left:-195px;
+      top:35px;
     
     }
 
@@ -584,11 +579,11 @@ color: #FF5733;
     menu{
       display: flex;
       position: relative;
-      top:0px;
+      top:-1px;
       padding: 10px;
-      width:97%;
+      width:580px;
       height:100px;
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.7);
       border:none;
       z-index: 5;
 
@@ -612,12 +607,284 @@ color: #FF5733;
       
       }
 
+
+
     
 
+      #description{
+        position: relative;
+        left: 10px;
+        bottom:150px;
+        text-align: left;
+        width: 85%;
+        font-size:16px;
+        font-family: Montserrat;
+        font-weight: 400;
+        
+      }
+
+      #details{
+
+        position: relative;
+        bottom: 150px;
+        background-color: #ffffff00;
+        color:rgb(0, 0, 0);
+        
+  
+      }
+
+      .ingredients {
+        position: relative;
+        bottom:190px;
+       }
+
+      
+
+
+      #details dl { 
+        display: inline;
+        position: relative;
+        bottom:25px;
+        text-align:left;
+        margin-left: 90px;
+       
+      }
+  
+      dt {
+        position: relative;
+        right:50px;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom:-30px;
+  
+      }
+  
+      dd {
+        position: relative;
+        
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        left:270px;
+        bottom:00px;
+  
+      }
+  
+      dt, dd {
+        position: relative;
+        bottom: 10p
+     
+  }
+
+    .author {
+
+      position: relative;
+      right:15px;
+
+    }
+
+    .servings {
+
+      position: relative;
+      left:25px;
+
+    }
+
+    #directions {
+      
+      position: relative;
+      bottom: 600px;
+      margin-left: 530px;
+     }
+
+
+     #directions h2 {
+      position: relative;
+      left:-180px;
+      bottom:-5px;
+      font-size: 30px;
+      font-family: Bebas Neue;
+     }
+  
+    #directions ol {
+      position: relative;
+      right:340px;
+      width:350px;
+      font-family: Montserrat ;
+    }
+
+    #sidedishes  {
+      position: relative;
+      bottom: 550px;
+      background-color: #7ABFBF;
+      margin-right:auto;
+      margin-left:auto;
+      height:300px;
+    }
+
+
+  #sidedishes div{
+    display: flex;
+    
     
   }
 
+  
+
+    #sidedishes img {
+      position: relative;
+      right:50px;
+      bottom:50px;
+      scale:40%;
+
+    }
+    #sidedishes img {
+      display: flex;
+      position: relative;
+      left:-130px;
+      bottom:90px;
+      scale:40%;
+
+    }
+
+    .rice h3 {
+
+      position: relative;
+      right:190px;
+      bottom:40px;
+      width: 100%;
+
+    }
+
+    #sidedishes .recipe {
+      display: flex;
+      position: relative;
+      font-size:0.7em;
+      width: 100%;
+      right:305px;
+      top:10px;
+      
+
+    }
+
+    .rice .rating {
+
+      position: relative;
+      right:420px;
+      top:40px;
+
+    }
+
+    .staricon {
+      fill: #FF5733;
+      position:relative;
+      bottom:72px;
+      left:-370px;
+  
+    }
+
+
+    .staricon:nth-child(9) {
+      fill: #ffff;
+      transform: translate(-373px ,-69px);
+
+    }
+
+
+    .salsa {
+
+      position: relative;
+      bottom:235px;
+      left:330px;
+
+    }
+
+    .salsa h3 {
+
+      position: relative;
+      right:190px;
+      bottom:39px;
+
+    }
+
+    .salsa p {
+
+      position: relative;
+      transform: translateX(64px);
+
+    }
+
+    .salsa .rating {
+
+      position: relative;
+      right:445px;
+      top:40px;
+
+    }
+
+    .salsa .staricon2 {
+      fill: #FF5733;
+      transform: translate(-380px,100px);
+      width: 50px;
+  
+    }
+
+    
 
 
 
+    .nd {
 
+      position: relative;
+      top:-340px
+
+    }
+    
+
+    .rd {
+
+      position: relative;
+      top:-575px;
+      left:250px;
+
+    }
+  
+  
+    #sidedishes h2 {
+     text-align: center;
+     padding-top: 15px;
+     font-family: Bebas Neue;
+     font-size: 30px;
+    }
+  
+   
+  
+
+
+  
+  
+  
+    .staricon:nth-child(9) {
+      fill: #ffff;
+      position:relative;
+      top:123px;
+      left:5px;
+      width:50px;
+    }
+
+
+    footer{
+      position: relative;
+      bottom:260px;
+      background-color:rgb(225, 225, 225);
+      height:300px;
+      font-size: 20px;
+  
+    }
+
+
+
+  }
