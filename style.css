@@ -30,11 +30,11 @@ box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
 
 body{
 
-margin: auto auto;
+  margin: 0 100px;
 width: 1280px;
 background:#F2F2F2;
 height: 2400px;
-overflow-x:hidden;
+overflow-x: hidden;
 }
 
 
@@ -50,14 +50,26 @@ h1{
 }
 
 .headerimages ul {
-
+  position: relative;
+  bottom:40px;
   display: flex;
   list-style: none;
   text-align: center;
 
+
+  
+}
+
+header input {
+
+  visibility: hidden;
+
 }
 
 
+.headerimages label { 
+  visibility: hidden;
+}
  .headerimages img{
   margin-right:-100px;
   position: relative;
@@ -488,13 +500,23 @@ color: #FF5733;
   @media screen and (max-width: 768px){
     body{
       margin-bottom: 0px;
-      margin: auto auto ;
+      margin: 0 200px;
       width: 600px;
       height:2600px;
-      
+      overflow-x: hidden;
 
     }
 
+    header input {
+
+      visibility: hidden;
+
+    }
+
+
+    .headerimages label { 
+      visibility: hidden;
+    }
 
     header{
       
@@ -921,10 +943,11 @@ color: #FF5733;
 
 body{
       margin-bottom: 0px;
-      margin: auto 100px ;
+      margin: 0 200px;
       width: 400px;
-      height:3300px
-
+      height:3300px;
+    
+  
     }
 
     .logo{
@@ -943,6 +966,8 @@ body{
         height:80px;
         box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
         }
+
+        
 
 nav svg:nth-child(1) {
   position: relative;
@@ -982,23 +1007,7 @@ transform: translate(40px,-80px);
 }
 
 
-.headerimages span{
 
-display: none;
-
-}
-
-.headerimages span{
-
-  display: none;
-  
-  }
-
-  .headerimages img{
-
-    display: none;
-    
-    }
 
   .wrap {
 
@@ -1331,6 +1340,37 @@ bottom:-10px;
       text-transform: uppercase;
       color:#EB5428;
     
+  }
+  .custom-label {
+    position: relative;
+    top: -70px;
+    left:40px;
+  }
+
+  ul {
+    max-height: 0;
+    overflow: hidden;
+  }
+  input:checked ~ ul {
+    background-color: aqua;
+    max-height: 70px;
+    z-index: 1004440;
+  
+  }
+ header input {
+    display: none;
+  
+  }
+
+  header input {
+
+    visibility: visible;
+  
+  }
+  
+  
+  .headerimages label { 
+    visibility: visible;
   }
 
   }
