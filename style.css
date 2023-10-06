@@ -30,7 +30,7 @@ box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
 
 body{
 
-  margin: 0 100px;
+  margin: 0 auto;
 width: 1280px;
 background:#F2F2F2;
 height: 2400px;
@@ -289,6 +289,10 @@ color: #FF5733;
 
     }
 
+    ol li {
+      margin-bottom: 20px; 
+  }
+
     dt, dd {
       position: relative;
       bottom: 10px;
@@ -500,7 +504,7 @@ color: #FF5733;
   @media screen and (max-width: 768px){
     body{
       margin-bottom: 0px;
-      margin: 0 200px;
+      margin: 0 auto;
       width: 600px;
       height:2600px;
       overflow-x: hidden;
@@ -763,6 +767,10 @@ color: #FF5733;
       font-family: Montserrat ;
     }
 
+    ol li {
+      margin-bottom: 20px; 
+  }
+
     #sidedishes  {
       display: grid;
       position: relative;
@@ -772,7 +780,6 @@ color: #FF5733;
       margin-left:auto;
       height:420px;
       grid-template-columns: 1fr 1fr;
-      grid-column: 1fr 1fr;
       font-size: 1.5em;
 
     }
@@ -937,16 +944,34 @@ color: #FF5733;
 
   }
 
+  header ul {
+
+    transform: translateY(-50px);
+
+  }
+
+
+  .menuz{
+
+    visibility: hidden;
+
+  }
+
+  #signup {
+
+    visibility: hidden;
+
+  }
 
   @media screen and (max-width: 414px) {
 
 
 body{
-      margin-bottom: 0px;
-      margin: 0 200px;
+   
+      margin: 0px auto;
       width: 400px;
       height:3300px;
-    
+    overflow-x: hidden;
   
     }
 
@@ -1006,17 +1031,24 @@ transform: translate(40px,-80px);
 
 .move {
 
-  transform: translate(-50px, -185px);
-  
-}
-
-.move svg{
-
-  scale:140%
+  visibility: hidden;
   
 }
 
 
+#signup{
+  visibility: visible;
+  transform: translate(330px,-75px);
+  list-style: none;
+  font-family: Bebas Neue;
+  
+}
+#signup span{
+  visibility: visible;
+  display: block;
+  margin-left: 2px;
+  text-align: left;
+}
 
 
   .wrap {
@@ -1115,7 +1147,7 @@ transform: translate(40px,-80px);
   
   .ingredients {
     position: relative;
-    transform: translateY(10px);
+    transform: translateY(80px);
    }
 
 
@@ -1124,8 +1156,6 @@ transform: translate(40px,-80px);
       left:1px;
     
   }
-
-  
 
   .servings {
 
@@ -1355,22 +1385,30 @@ bottom:-10px;
   }
   .custom-label {
     position: relative;
-    top: -70px;
+    top: -147px;
     left:40px;
   }
 
-  #pageheader .im {
-    transform: translateY(-15px);
+  header ul {
+    transform: translateY(-90px);
     max-height: 0;
     overflow: hidden;
     transition: 0.4s ease-in-out;
   }
-  input:checked ~ .im {
-    background-color: rgb(245, 245, 245);
-    max-height: 70px;
+  input:checked ~ ul {
+    background-color: rgb(244, 244, 244);
+    max-height: 90px;
     z-index: 1004440;
     transition: 0.4s ease-in-out;
   
+  }
+
+  .menuz {
+    visibility: visible;
+    position: absolute;
+    transform: translate(-164px,55px);
+    font-family: Bebas Neue;
+
   }
  header input {
     display: none;
@@ -1389,3 +1427,5 @@ bottom:-10px;
   }
 
   }
+
+  
