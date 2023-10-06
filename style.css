@@ -146,6 +146,7 @@ color: #FF5733;
         width: 300px;
         position: relative;
         display: flex;
+        z-index: 1000;
       }
       
       .searchTerm {
@@ -157,6 +158,7 @@ color: #FF5733;
         outline: none;
         color: #000000;
         font-size: 16px;
+        z-index: 10002;
       }
       
       .searchTerm:focus{
@@ -966,15 +968,18 @@ color: #FF5733;
   @media screen and (max-width: 414px) {
 
 
-body{
-   
-      margin: 0px auto;
-      width: 400px;
-      height:3300px;
-    overflow-x: hidden;
-  
-    }
 
+
+
+    html, body {
+
+      width:400px;
+      height:3300px;
+      margin:0;
+      padding:0px;
+      overflow-x:hidden;
+
+    }
     .headerimages img{
       margin-right:-180px;
       position: relative;
@@ -985,6 +990,23 @@ body{
     
     }
 
+    h1 {
+
+      transform: translateY(-90px);
+
+    }
+
+    .searchTerm {
+
+      transform: translateY(-25px);
+
+    }
+
+    .searchButton{
+
+transform: translateY(-25px);
+
+    }
     .logo{
       
       transform: translateX(100px);
@@ -1340,7 +1362,7 @@ bottom:-10px;
     position: relative;
     bottom:40px;
     background-color:rgb(255, 255, 255);
-    height:450px;
+    height:510px;
     font-size: 20px;
 
   }
