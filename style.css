@@ -504,6 +504,9 @@ color: #FF5733;
   }
   
   @media screen and (max-width: 768px){
+
+
+    
     body{
       margin-bottom: 0px;
       margin: 0 auto;
@@ -512,6 +515,7 @@ color: #FF5733;
       overflow-x: hidden;
 
     }
+    
 
     header input {
 
@@ -969,15 +973,20 @@ color: #FF5733;
 
 
 
+    html {
 
+      overflow-x: hidden;
+      
+      margin: 0 auto;;
+    }
 
-    html, body {
-
+     body {
+      overflow-y: hidden;
       width:400px;
-      height:3300px;
+      height:3900px;
       margin:0;
       padding:0px;
-      overflow-x:hidden;
+      
 
     }
     .headerimages img{
