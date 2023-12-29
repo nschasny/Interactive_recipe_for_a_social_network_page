@@ -29,8 +29,8 @@ box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
 
 
 body{
-
-  margin: 0 auto;
+  
+margin: 0 auto;
 width: 1280px;
 background:#F2F2F2;
 height: 2400px;
@@ -477,7 +477,7 @@ color: #FF5733;
     display: flex;
     text-align: center;
     position: relative;
-    bottom:250px;
+    bottom:200px;
     margin-left:800px;
   }
   #socialm li {
@@ -942,7 +942,7 @@ color: #FF5733;
       display: flex;
       text-align: center;
       position: relative;
-      bottom:230px;
+      bottom:160px;
       margin-left:200px;
     }
 
@@ -1400,7 +1400,7 @@ bottom:-10px;
     display: flex;
     text-align: center;
     position: relative;
-    bottom:270px;
+    bottom:180px;
     margin-left:80px;
   }
   #socialm span {
