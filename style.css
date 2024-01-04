@@ -369,8 +369,9 @@ color: #FF5733;
   }
 
   #sidedishes .rating{
-    position: static;
-    bottom:7px;
+    position: relative;
+    bottom:4px;
+    left:-10px;
     display: inline-block;
     font-weight: bold;
     font-family: Montserrat;
