@@ -557,6 +557,10 @@ color: #FF5733;
 
       }
 
+        #sidedishes .rating {
+          bottom:4px;
+          left:260px;
+        }
       
 
       .headerimages  span {
@@ -1401,7 +1405,7 @@ bottom:-10px;
     display: flex;
     text-align: center;
     position: relative;
-    bottom:180px;
+    bottom:270px;
     margin-left:80px;
   }
   #socialm span {
